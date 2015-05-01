@@ -23,7 +23,7 @@ During the demo:
 Good luck!
 
 
-Load
+##Load
 
 
 CREATE TABLE customer (c_custkey INTEGER, c_name STRING, c_address STRING, c_nationkey INTEGER, c_phone STRING, c_acctbal DOUBLE, c_mktsegment STRING, c_comment STRING) AS HEAP
@@ -89,7 +89,7 @@ SET OUTPUT NONE
 
 
 
-Execute
+##Execute
 (Q1)
 
 SELECT SUM (ps.ps_supplycost)
@@ -156,7 +156,7 @@ GROUP BY l_orderkey, o_orderdate, o_shippriority
 ANSWER: 7 rows
 
 
-Plans
+##Plans
 (Q1)
 
 SELECT SUM (ps.ps_supplycost), s.s_suppkey
